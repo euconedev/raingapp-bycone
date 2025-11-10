@@ -1,0 +1,37 @@
+/* Correções de alinhamento para o tablet */
+.text-foreground {
+  white-space: normal !important;
+  line-height: 1.5 !important;
+}
+
+.app-container {
+  line-height: normal !important;
+}
+
+/* Garantir que os textos não fiquem sobrepostos */
+label, p, h1, h2, h3, h4, h5, h6, span, div {
+  line-height: 1.5 !important;
+  margin-bottom: 0.25rem !important;
+}
+
+/* Corrigir espaçamento em elementos de formulário */
+.flex.items-center {
+  margin-bottom: 0.5rem !important;
+}
+
+
+/* SUAS CORES PERSONALIZADAS */
+:root {
+  --cor-principal: #ff0000;
+  --cor-secundaria: #00ff00;
+  --fundo: #000000;
+}
+
+/* Aplique as cores */
+.app-container {
+  background: var(--fundo) !important;
+}
+
+.texto-principal {
+  color: var(--cor-principal) !important;
+}
